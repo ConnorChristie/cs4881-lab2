@@ -11,18 +11,23 @@ Generates a random 8x8 map and attempts to solve it using 4 different methods:
 ## Sample Output
 
 ```
-Solved A* manhattan in 271 iterations.
-Solved Hill Climbing manhattan in 312 iterations.
-Solved A* misplaced tile in 484 iterations.
 Solved Hill Climbing misplaced tile in -1 iterations.
+Solved Hill Climbing manhattan in -1 iterations.
+Solved A* misplaced tile in 6786 iterations.
+Solved A* manhattan in 832 iterations.
 
-Solved A* manhattan in 119 iterations.
-Solved Hill Climbing manhattan in 152 iterations.
-Solved A* misplaced tile in 5244 iterations.
 Solved Hill Climbing misplaced tile in -1 iterations.
+Solved Hill Climbing manhattan in 95 iterations.
+Solved A* misplaced tile in 6365 iterations.
+Solved A* manhattan in 364 iterations.
 
-Solved A* manhattan in 2 iterations.
-Solved Hill Climbing manhattan in 2 iterations.
-Solved A* misplaced tile in 2 iterations.
-Solved Hill Climbing misplaced tile in 2 iterations.
+Solved Hill Climbing misplaced tile in -1 iterations.
+Solved Hill Climbing manhattan in -1 iterations.
+Solved A* misplaced tile in 16 iterations.
+Solved A* manhattan in 10 iterations.
+
+Solved Hill Climbing misplaced tile in -1 iterations.
+Solved Hill Climbing manhattan in 293 iterations.
+Solved A* misplaced tile in 2401 iterations.
+Solved A* manhattan in 179 iterations.
 ```

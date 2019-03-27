@@ -6,7 +6,11 @@ namespace Program
         {
             var total = 0;
 
-            for (var i = 0; i < (board.Width * board.Height) - 1; i++)
+            // Right now, this only checks the distance to the following final state:
+            //   0 1 2
+            //   3 4 5
+            //   6 7 8
+            for (var i = 0; i < board.Width * board.Height; i++)
             {
                 var x = i % board.Width;
                 var y = (i - x) / board.Width;

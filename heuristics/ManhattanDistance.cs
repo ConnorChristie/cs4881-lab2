@@ -8,6 +8,10 @@ namespace Program
         {
             var total = 0;
 
+            // Right now, this only checks the distance to the following final state:
+            //   0 1 2
+            //   3 4 5
+            //   6 7 8
             for (var x = 0; x < board.Width; x++)
             {
                 for (var y = 0; y < board.Height; y++)

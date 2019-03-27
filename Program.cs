@@ -30,10 +30,10 @@ namespace Program
                 var depthASMis = solverASMis.Solve(board);
                 var depthHCMis = solverHCMis.Solve(board);
 
-                Console.WriteLine($"Solved A* manhattan in {depthASMan} iterations.");
+                Console.WriteLine($"Solved Hill Climbing misplaced tile in {depthHCMis} iterations.");
                 Console.WriteLine($"Solved Hill Climbing manhattan in {depthHCMan} iterations.");
                 Console.WriteLine($"Solved A* misplaced tile in {depthASMis} iterations.");
-                Console.WriteLine($"Solved Hill Climbing misplaced tile in {depthHCMis} iterations.");
+                Console.WriteLine($"Solved A* manhattan in {depthASMan} iterations.");
                 Console.WriteLine();
             }
         }
